@@ -1,0 +1,37 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.loading {
+  text-align: center;
+  padding: 30px;
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.error-message {
+  color: #e74c3c;
+  background-color: #fde8e8;
+  border: 1px solid #fbd5d5;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.info-message {
+  color: #2c3e50;
+  background-color: #e8f4f8;
+  border: 1px solid #d5e8f0;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+} 
